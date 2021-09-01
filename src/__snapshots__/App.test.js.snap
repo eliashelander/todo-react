@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Should match snapshot 1`] = `
+<div
+  className="todo-wrapper"
+>
+  <div
+    className="form-wrapper"
+  >
+    <form
+      action="post"
+      className="form box-shadow"
+      onSubmit={[Function]}
+    >
+      <label
+        className="form__label"
+        htmlFor="title"
+      >
+        Todo title
+        <input
+          className="form__input"
+          id="title"
+          name="title"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="form__label"
+        htmlFor="description"
+      >
+        Describe your todo
+        <input
+          className="form__input"
+          id="description"
+          name="description"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <button
+        className="btn btn--add"
+        name="add"
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+  </div>
+  <section
+    className="todo-list"
+  />
+</div>
+`;

@@ -1,0 +1,75 @@
+.todo-wrapper {
+  max-width: 400px;
+  padding: 5px;
+  margin: auto;
+}
+
+.form-wrapper {
+  display: flex;
+  padding: 10px;
+}
+
+.form {
+  flex: 1;
+  padding: 20px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card {
+  flex: 1;
+  order: 1;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.card--done {
+  order: 2;
+  background-color: lightgreen;
+}
+
+.card__title {
+  font-size: 1.5rem;
+}
+
+.card__title--done {
+  text-decoration: line-through;
+}
+
+.card__description {
+  font-size: 1rem;
+}
+
+.btn {
+  float: right;
+}
+
+.btn--add {
+  background-color: palegreen
+}
+
+.btn--delete {
+  background-color: indianred;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
