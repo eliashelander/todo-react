@@ -1,4 +1,4 @@
-# Rentify
+# Todo app with react
 
 ## Table of contents
 * [General info](#general-info)
@@ -6,16 +6,12 @@
 * [Setup](#setup)
 
 ## General info
-A platform where you can rent anything from your peers. Built as a full stack application.
+Todo app where you can add, mark as done and delete items.
 	
 ## Technologies
 Project is created with:
 * Node.js
-* Express.js
-* ElephantSQL
-* PostgreSQL
 * React
-* Firebase
 	
 ## Setup
 Make sure you have yarn installed.
